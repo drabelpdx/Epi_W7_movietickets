@@ -37,6 +37,14 @@ $(document).ready(function(){
     $("div.form").hide();
     $("button").hide();
 
+    $(".listing").click(function() {
+    $(".showtime").show();
+
+//    $("listing").hide();
+
+    });
+
+
   });
 
 })

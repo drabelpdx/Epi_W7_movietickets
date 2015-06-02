@@ -8,3 +8,18 @@
   border-width: medium;
   padding: 20px;
 }
+
+.jumbotron {
+  position: relative;
+  background: #000 url("https://download.unsplash.com/photo-1415201179613-bd037ff5eb29") center center;
+  width: 100%;
+  height: inherit;
+  background-size: cover;
+  overflow: hidden;
+  color: white;
+}
+
+.showtime {
+  display: none;
+
+}
