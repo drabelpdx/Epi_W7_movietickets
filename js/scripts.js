@@ -11,7 +11,7 @@ MovieTicket.prototype.price = function() {
     this.cost -= 3;
   }
 
-  if (this.age === "senior" || "child") {
+  if (this.age !== "adult") {
     this.cost -= 2;
   }
 
