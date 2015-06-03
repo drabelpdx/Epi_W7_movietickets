@@ -30,21 +30,21 @@ $(document).ready(function(){
     newTicket.cost = newTicket.price();
 
     $(".name").text(newTicket.movieName);
-    $(".showing").text(newTicket.showing);
+    $(".showing").text(newTicket.showing + "pm");
     $(".type").text(newTicket.age);
-    $(".cost").text(newTicket.cost);
+    $(".cost").text("$" + newTicket.cost);
     $("#show-ticket").show();
     $("div.form").hide();
     $("button").hide();
 
-    $(".listing").click(function() {
+  });
+
+  $( ".listing" ).change(function() {
     $(".showtime").show();
+  });
 
-//    $("listing").hide();
-
-    });
-
-
+  $( ".showtime" ).change(function() {
+    $(".type").show();
   });
 
 })

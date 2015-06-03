@@ -19,7 +19,15 @@
   color: white;
 }
 
+
+.listing {
+
+}
+
 .showtime {
   display: none;
+}
 
+.type {
+  display: none;
 }
